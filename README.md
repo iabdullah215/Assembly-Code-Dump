@@ -11,7 +11,7 @@ Here some of the assembly scripts I wrote...
 
 ![image1](images/image1.png)
 
-**STEP 4:** In the `Project` section, first right click then from the `Dependencies` section choose `Build Dependencies`.
+**STEP 4:** In the `Project` section, first right click then from the `Build Dependencies` section choose `Build Customization`.
 
 ![image1](images/image2.png)
 
@@ -19,7 +19,7 @@ Here some of the assembly scripts I wrote...
 
 ![image1](images/image3.png)
 
-**STEP 6:** After checking the check box again right click in the `Project` section and from the `Add` secton choose `Empty File`.
+**STEP 6:** After checking the check box again right click in the `Project` section and from the `Add` secton choose `Empty Item`.
 
 ![image1](images/image4.png)
 
