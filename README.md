@@ -19,7 +19,7 @@ Here some of the assembly scripts I wrote...
 
 ![image1](images/image3.png)
 
-**STEP 6:** After checking the check box again right click in the `Project` section and from the `Add` secton choose `Empty Item`.
+**STEP 6:** After checking the check box again right click in the `Project` section and from the `Add` section choose `New Item`.
 
 ![image1](images/image4.png)
 
