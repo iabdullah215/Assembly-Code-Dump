@@ -9,5 +9,24 @@ Here some of the assembly scripts I wrote...
 
 **STEP 3:** In the Language section choose `C++` and then choose `Empty Project`.
 
-![image](images/image.png)
+![image1](images/image1.png)
 
+**STEP 4:** In the `Project` section, first right click then from the `Dependencies` section choose `Build Dependencies`.
+
+![image1](images/image2.png)
+
+**STEP 5:** Now click the `masm` check box.
+
+![image1](images/image3.png)
+
+**STEP 6:** After checking the check box again right click in the `Project` section and from the `Add` secton choose `Empty File`.
+
+![image1](images/image4.png)
+
+**STEP 7:** Write the file name as follow and make sure to use `.asm` extension.
+
+![image1](images/image5.png)
+
+**STEP 8:** After this you'll have your code editor ready.
+
+![image1](images/image6.png)
