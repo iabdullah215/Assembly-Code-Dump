@@ -1,5 +1,5 @@
 # Assembly Code Dump
-Here some of the assembly scripts I wrote...
+Here are some of the assembly scripts I wrote...
 
 ## HOW TO RUN THESE SCRIPTS:
 
