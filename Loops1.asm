@@ -1,0 +1,19 @@
+; Single Loop
+
+.386
+.model flat, stdcall
+.stack 4096
+ExitProcess PROTO, dwExitCode:DWORD
+.data
+someData BYTE 0
+.code main
+PROC
+mov ecx, 5
+movzx eax, someData
+L1:
+inc eax loop L1 mov
+someData, al
+INVOKE ExitProcess, someData; EXIT
+main
+ENDP END
+main
