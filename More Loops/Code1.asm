@@ -1,22 +1,30 @@
 ; We need to check if the given byte in AL has even or odd parity using the Parity flag.
 
+.MODEL FLAT, STDCALL
+.STACK 4096
+.DATA
+checkByte BYTE 01110101b
+evenParityResult BYTE 0
+oddParityResult BYTE 0
+
 .CODE
 main PROC
-    mov al, 01110101b       ; Load the byte into AL
-    test al, al             ; The TEST instruction sets the Parity flag based on the number of 1 bits in AL
-    jpo OddParity           ; Jump if Parity flag is odd
-    jpe EvenParity          ; Jump if Parity flag is even
+    mov al, checkByte
+    test al, al
+    jpo OddParity
+    jpe EvenParity
 
 EvenParity:
-    ; Code when parity is even
-    ; (Implement your own logic here)
+    mov evenParityResult, 1
     jmp End
 
 OddParity:
-    ; Code when parity is odd
-    ; (Implement your own logic here)
+    mov oddParityResult, 1
     
 End:
-    ; Exit code
     ret
+
 main ENDP
+
+; In EvenParity, the evenParityResult variable is set to 1 to indicate even parity was detected.
+; In OddParity, the oddParityResult variable is set to 1 to indicate odd parity was detected.
