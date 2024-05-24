@@ -39,7 +39,7 @@ Here is a step by step method to set up `Irvine32` Library.
 
 **STEP 1:** First search for `Irvine32` library on your browser and open the following git repository.
 
-![image1](images/image5.png)
+![image1](images/untitled.png)
 
 **STEP 2:** In the repo, click the `Code` button in the top right corner and then click on the download zip file.
 
