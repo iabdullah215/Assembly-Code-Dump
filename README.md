@@ -39,15 +39,15 @@ Here is a step by step method to set up `Irvine32` Library.
 
 **STEP 1:** First search for `Irvine32` library on your browser and open the following git repository.
 
-![image1](images/untitled.png)
+![image1](images/Untitled.png)
 
 **STEP 2:** In the repo, click the `Code` button in the top right corner and then click on the download zip file.
 
-![image1](images/image5.png)
+![image1](images/Untitled1.png)
 
 **STEP 3:** Now extract the file from the zipped folder.
 
-![image1](images/image5.png)
+![image1](images/Untitled2.png)
 
 **STEP 4:** Copy the path of the extracted file. I have saved the file in the following location.
 **Location:** `D:\Semester 4\COAL\Irvine32 Library\Irvine32-master`
@@ -56,19 +56,19 @@ Here is a step by step method to set up `Irvine32` Library.
 
 **STEP 6:** Move to `Project > Properties`.
 
-![image1](images/image5.png)
+![image1](images/Untitled3.png)
 
 **STEP 7:** In properties move to the `Linker > Additional Library` Dependencies and then paste your copied file path there.
 
-![image1](images/image5.png)
+![image1](images/image4.png)
 
 **STEP 8:** Now click on the `Input` tab. In the Additional Dependency section add `irvine32.lib`.
 
-![image1](images/image5.png)
+![image1](images/Untitled5.png)
 
 **STEP 9:** Now in the `Microsoft Macro Assembly > Include Paths` enter the file path again.
 
-![image1](images/image5.png)
+![image1](images/Untitled6.png)
 
 **STEP 10:** Verification
 
@@ -102,4 +102,4 @@ END main
 
 **Respective Output:**
 
-![image1](images/image5.png)
+![image1](images/Untitled7.png)
