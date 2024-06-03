@@ -73,7 +73,7 @@ Here is a step by step method to set up `Irvine32` Library.
 
 **STEP 10:** Verification
 
-- Write the following code to verify the code.
+- Write the following code to verify everything.
 
 ```assembly
 INCLUDE Irvine32.inc
